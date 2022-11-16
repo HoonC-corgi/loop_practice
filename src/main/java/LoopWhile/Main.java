@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("exit을 입력시 종료");
         while(true) {   // 무한반복, 0 또는 1 사용 x 반드시 불린타입
             System.out.print(">> ");
